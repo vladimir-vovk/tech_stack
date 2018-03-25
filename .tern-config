@@ -1,0 +1,8 @@
+var defaultConfig = {
+  libs: [],
+  loadEagerly: false,
+  plugins: {"commonjs":{}, "node":{}, "requirejs":{}, "node_resolve":{}},
+  ecmaScript: true,
+  ecmaVersion: 6,
+  dependencyBudget: tern.defaultOptions.dependencyBudget
+};
